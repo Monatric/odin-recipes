@@ -1,4 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 * {
     font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.content {
+    height: 100vh;
+    background-color:moccasin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recipe-title{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.recipes {
+    padding-left: 20px;
 }
